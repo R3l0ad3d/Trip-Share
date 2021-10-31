@@ -1,0 +1,629 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CA23E5BC272E8F0400615BBF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA23E5BB272E8F0400615BBF /* AppDelegate.swift */; };
+		CA23E5BE272E8F0400615BBF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA23E5BD272E8F0400615BBF /* SceneDelegate.swift */; };
+		CA23E5C0272E8F0400615BBF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA23E5BF272E8F0400615BBF /* ViewController.swift */; };
+		CA23E5C3272E8F0400615BBF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA23E5C1272E8F0400615BBF /* Main.storyboard */; };
+		CA23E5C5272E8F0600615BBF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CA23E5C4272E8F0600615BBF /* Assets.xcassets */; };
+		CA23E5C8272E8F0600615BBF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA23E5C6272E8F0600615BBF /* LaunchScreen.storyboard */; };
+		CA23E5D3272E8F0600615BBF /* Trip_ShareTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA23E5D2272E8F0600615BBF /* Trip_ShareTests.swift */; };
+		CA23E5DD272E8F0600615BBF /* Trip_ShareUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA23E5DC272E8F0600615BBF /* Trip_ShareUITests.swift */; };
+		CA23E5DF272E8F0600615BBF /* Trip_ShareUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA23E5DE272E8F0600615BBF /* Trip_ShareUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CA23E5CF272E8F0600615BBF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CA23E5B0272E8F0400615BBF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CA23E5B7272E8F0400615BBF;
+			remoteInfo = "Trip Share";
+		};
+		CA23E5D9272E8F0600615BBF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CA23E5B0272E8F0400615BBF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CA23E5B7272E8F0400615BBF;
+			remoteInfo = "Trip Share";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CA23E5B8272E8F0400615BBF /* Trip Share.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Trip Share.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA23E5BB272E8F0400615BBF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CA23E5BD272E8F0400615BBF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		CA23E5BF272E8F0400615BBF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CA23E5C2272E8F0400615BBF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CA23E5C4272E8F0600615BBF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CA23E5C7272E8F0600615BBF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CA23E5C9272E8F0600615BBF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CA23E5CE272E8F0600615BBF /* Trip ShareTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Trip ShareTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA23E5D2272E8F0600615BBF /* Trip_ShareTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Trip_ShareTests.swift; sourceTree = "<group>"; };
+		CA23E5D8272E8F0600615BBF /* Trip ShareUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Trip ShareUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA23E5DC272E8F0600615BBF /* Trip_ShareUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Trip_ShareUITests.swift; sourceTree = "<group>"; };
+		CA23E5DE272E8F0600615BBF /* Trip_ShareUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Trip_ShareUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CA23E5B5272E8F0400615BBF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA23E5CB272E8F0600615BBF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA23E5D5272E8F0600615BBF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CA23E5AF272E8F0400615BBF = {
+			isa = PBXGroup;
+			children = (
+				CA23E5BA272E8F0400615BBF /* Trip Share */,
+				CA23E5D1272E8F0600615BBF /* Trip ShareTests */,
+				CA23E5DB272E8F0600615BBF /* Trip ShareUITests */,
+				CA23E5B9272E8F0400615BBF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CA23E5B9272E8F0400615BBF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CA23E5B8272E8F0400615BBF /* Trip Share.app */,
+				CA23E5CE272E8F0600615BBF /* Trip ShareTests.xctest */,
+				CA23E5D8272E8F0600615BBF /* Trip ShareUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CA23E5BA272E8F0400615BBF /* Trip Share */ = {
+			isa = PBXGroup;
+			children = (
+				CA23E5BB272E8F0400615BBF /* AppDelegate.swift */,
+				CA23E5BD272E8F0400615BBF /* SceneDelegate.swift */,
+				CA23E5BF272E8F0400615BBF /* ViewController.swift */,
+				CA23E5C1272E8F0400615BBF /* Main.storyboard */,
+				CA23E5C4272E8F0600615BBF /* Assets.xcassets */,
+				CA23E5C6272E8F0600615BBF /* LaunchScreen.storyboard */,
+				CA23E5C9272E8F0600615BBF /* Info.plist */,
+			);
+			path = "Trip Share";
+			sourceTree = "<group>";
+		};
+		CA23E5D1272E8F0600615BBF /* Trip ShareTests */ = {
+			isa = PBXGroup;
+			children = (
+				CA23E5D2272E8F0600615BBF /* Trip_ShareTests.swift */,
+			);
+			path = "Trip ShareTests";
+			sourceTree = "<group>";
+		};
+		CA23E5DB272E8F0600615BBF /* Trip ShareUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CA23E5DC272E8F0600615BBF /* Trip_ShareUITests.swift */,
+				CA23E5DE272E8F0600615BBF /* Trip_ShareUITestsLaunchTests.swift */,
+			);
+			path = "Trip ShareUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CA23E5B7272E8F0400615BBF /* Trip Share */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CA23E5E2272E8F0600615BBF /* Build configuration list for PBXNativeTarget "Trip Share" */;
+			buildPhases = (
+				CA23E5B4272E8F0400615BBF /* Sources */,
+				CA23E5B5272E8F0400615BBF /* Frameworks */,
+				CA23E5B6272E8F0400615BBF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Trip Share";
+			productName = "Trip Share";
+			productReference = CA23E5B8272E8F0400615BBF /* Trip Share.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CA23E5CD272E8F0600615BBF /* Trip ShareTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CA23E5E5272E8F0600615BBF /* Build configuration list for PBXNativeTarget "Trip ShareTests" */;
+			buildPhases = (
+				CA23E5CA272E8F0600615BBF /* Sources */,
+				CA23E5CB272E8F0600615BBF /* Frameworks */,
+				CA23E5CC272E8F0600615BBF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CA23E5D0272E8F0600615BBF /* PBXTargetDependency */,
+			);
+			name = "Trip ShareTests";
+			productName = "Trip ShareTests";
+			productReference = CA23E5CE272E8F0600615BBF /* Trip ShareTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CA23E5D7272E8F0600615BBF /* Trip ShareUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CA23E5E8272E8F0600615BBF /* Build configuration list for PBXNativeTarget "Trip ShareUITests" */;
+			buildPhases = (
+				CA23E5D4272E8F0600615BBF /* Sources */,
+				CA23E5D5272E8F0600615BBF /* Frameworks */,
+				CA23E5D6272E8F0600615BBF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CA23E5DA272E8F0600615BBF /* PBXTargetDependency */,
+			);
+			name = "Trip ShareUITests";
+			productName = "Trip ShareUITests";
+			productReference = CA23E5D8272E8F0600615BBF /* Trip ShareUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CA23E5B0272E8F0400615BBF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1310;
+				LastUpgradeCheck = 1310;
+				TargetAttributes = {
+					CA23E5B7272E8F0400615BBF = {
+						CreatedOnToolsVersion = 13.1;
+					};
+					CA23E5CD272E8F0600615BBF = {
+						CreatedOnToolsVersion = 13.1;
+						TestTargetID = CA23E5B7272E8F0400615BBF;
+					};
+					CA23E5D7272E8F0600615BBF = {
+						CreatedOnToolsVersion = 13.1;
+						TestTargetID = CA23E5B7272E8F0400615BBF;
+					};
+				};
+			};
+			buildConfigurationList = CA23E5B3272E8F0400615BBF /* Build configuration list for PBXProject "Trip Share" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CA23E5AF272E8F0400615BBF;
+			productRefGroup = CA23E5B9272E8F0400615BBF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CA23E5B7272E8F0400615BBF /* Trip Share */,
+				CA23E5CD272E8F0600615BBF /* Trip ShareTests */,
+				CA23E5D7272E8F0600615BBF /* Trip ShareUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CA23E5B6272E8F0400615BBF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA23E5C8272E8F0600615BBF /* LaunchScreen.storyboard in Resources */,
+				CA23E5C5272E8F0600615BBF /* Assets.xcassets in Resources */,
+				CA23E5C3272E8F0400615BBF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA23E5CC272E8F0600615BBF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA23E5D6272E8F0600615BBF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CA23E5B4272E8F0400615BBF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA23E5C0272E8F0400615BBF /* ViewController.swift in Sources */,
+				CA23E5BC272E8F0400615BBF /* AppDelegate.swift in Sources */,
+				CA23E5BE272E8F0400615BBF /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA23E5CA272E8F0600615BBF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA23E5D3272E8F0600615BBF /* Trip_ShareTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA23E5D4272E8F0600615BBF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA23E5DD272E8F0600615BBF /* Trip_ShareUITests.swift in Sources */,
+				CA23E5DF272E8F0600615BBF /* Trip_ShareUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CA23E5D0272E8F0600615BBF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CA23E5B7272E8F0400615BBF /* Trip Share */;
+			targetProxy = CA23E5CF272E8F0600615BBF /* PBXContainerItemProxy */;
+		};
+		CA23E5DA272E8F0600615BBF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CA23E5B7272E8F0400615BBF /* Trip Share */;
+			targetProxy = CA23E5D9272E8F0600615BBF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CA23E5C1272E8F0400615BBF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CA23E5C2272E8F0400615BBF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CA23E5C6272E8F0600615BBF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CA23E5C7272E8F0600615BBF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CA23E5E0272E8F0600615BBF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CA23E5E1272E8F0600615BBF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CA23E5E3272E8F0600615BBF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 432QSQ2CUQ;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Trip Share/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bekar.Trip-Share";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CA23E5E4272E8F0600615BBF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 432QSQ2CUQ;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Trip Share/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bekar.Trip-Share";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CA23E5E6272E8F0600615BBF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 432QSQ2CUQ;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bekar.Trip-ShareTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Trip Share.app/Trip Share";
+			};
+			name = Debug;
+		};
+		CA23E5E7272E8F0600615BBF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 432QSQ2CUQ;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bekar.Trip-ShareTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Trip Share.app/Trip Share";
+			};
+			name = Release;
+		};
+		CA23E5E9272E8F0600615BBF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 432QSQ2CUQ;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bekar.Trip-ShareUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Trip Share";
+			};
+			name = Debug;
+		};
+		CA23E5EA272E8F0600615BBF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 432QSQ2CUQ;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bekar.Trip-ShareUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Trip Share";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CA23E5B3272E8F0400615BBF /* Build configuration list for PBXProject "Trip Share" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA23E5E0272E8F0600615BBF /* Debug */,
+				CA23E5E1272E8F0600615BBF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CA23E5E2272E8F0600615BBF /* Build configuration list for PBXNativeTarget "Trip Share" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA23E5E3272E8F0600615BBF /* Debug */,
+				CA23E5E4272E8F0600615BBF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CA23E5E5272E8F0600615BBF /* Build configuration list for PBXNativeTarget "Trip ShareTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA23E5E6272E8F0600615BBF /* Debug */,
+				CA23E5E7272E8F0600615BBF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CA23E5E8272E8F0600615BBF /* Build configuration list for PBXNativeTarget "Trip ShareUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA23E5E9272E8F0600615BBF /* Debug */,
+				CA23E5EA272E8F0600615BBF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CA23E5B0272E8F0400615BBF /* Project object */;
+}
